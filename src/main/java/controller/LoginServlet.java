@@ -19,11 +19,10 @@ public class LoginServlet extends HttpServlet {
     
     public LoginServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -44,11 +43,6 @@ public class LoginServlet extends HttpServlet {
 			s.setAttribute("msg", message);
 			response.sendRedirect("login.jsp");
 		}
-		//PrintWriter out = response.getWriter();
-		//out.println("vous etes: " + username + " " + password);
-		//System.out.println(username + "/" + password);
-		//doGet(request, response);
-		//doGet(request, response);
 	}
 
 }
