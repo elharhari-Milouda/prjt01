@@ -42,8 +42,8 @@ public class SectionServlet extends HttpServlet {
 				List<Place> newSect = new ArrayList<Place>();
 				for (Section section : Sections) {
 					Place pl = new Place();
-					pl.setId(section.getId());// id : section
-					pl.setEtat(section.getCode());// etat : code section
+					pl.setId(section.getId()); //idSection
+					pl.setEtat(section.getCode()); //codeSection
 					int cpt = 0;
 					int ett = 0;
 					for (Place place : places) {
@@ -54,8 +54,8 @@ public class SectionServlet extends HttpServlet {
 							cpt++;
 						}
 					}
-					pl.setNumero(cpt);// numero : nbr de place dans chaqie section
-					pl.setSection(ett);// sectionn :br de place aucuper dans chaque section
+					pl.setNumero(cpt); // nombre de places dans chaque section
+					pl.setSection(ett); //nombre de places occuppees dans chaque section
 					newSect.add(pl);
 					 System.out.println(pl);
 				}
