@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\atlas pro electro\eclipse-workspace\prjt01\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3413725848.index
+3818874790.index

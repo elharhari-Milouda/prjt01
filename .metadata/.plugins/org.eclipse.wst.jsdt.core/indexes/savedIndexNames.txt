@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\atlas pro electro\eclipse-workspace\prjt01\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1644681542.index
+3818874790.index
+2962470588.index
+716518278.index
+2377808384.index
+792828577.index
